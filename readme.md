@@ -40,18 +40,54 @@ Também existem dois comandos especiais:
 
 Enfim isso é tudo pessoal :D
 
-## ‼️OBS
+## ✅ Versões
 
-Exixtem duas versões dessa Calculadora 1 código versão 1 e outro versão 2
-Qual a diferença do código 2 para o código 1 ?
+### Versão Calc-v1
 
-Simples o código 2 suporta expressões matematicas mais completas exemplo:
-10 + 10 + 10 = 30
-ja o código 1 nao suporta, o código 2 tambem te pergunta se deja utilizar o resultado da conta anterior para fazer a conta nova.
+Nesta versão voce consegue fazer as operações mais basicas de uma calculadora somar, subtrair, dividir e multiplicar.
+
 Exemplo:
-10 + 10 + 10 = 30
-Conta nova: 
-10 + 10
-Deseja utilizar o resultado da conta anteriro ? (s/n) 
-se sim: 30 + 10 + 10 = 50
-se nao: + 10 + 10 = 20
+
+Digite o primeiro número: 10
+Digite o Operador ( +, -, x, /): +
+Digite o segundo número: 10
+
+Resultado: 20
+
+#### Funções - Sair & Historico
+
+##### Sair
+
+A função sair ela encerra o programa da Calculadora
+
+##### Historico
+
+Ela exibe o último calculo exibido na tela exemplo:
+
+Digite a função ou primeiro número (Sair - encerra o programa - Historico - exibe o historico de calculos): 
+
+Se Historico:
+Exibir Historico
+Historico.append[] = {Num1} {Num2} "=" {Resultado} 
+10 + 10 = 20
+
+### Versão Calc-v2
+
+Nesta versão além dos calculos básicos voce consegue fazer raiz quadrada, cubica, exponenciação, porcentagem, entre outros calculos de sin, con, tan, log. Nesta calculadora você tambem consegue fazer calculos com expressão númerica inteira exemplo:
+
+10 + 10 + 10 = 30 | 10 + 10 * 2 = 30
+
+Lembrando que ele faz em ordem de acordo com as regras matematicas primeiro parenteses, multiplicação e divisão.
+
+Esse código também armazena o resultado da conta anterior podendo utilizar o resultado da última conta na próxima conta exemplo:
+
+Digite a operação: 10 + 10 + 10
+Deseja utilizar o resultado da conta anterior (s/n):
+
+se sim:
+resultado = 60
+
+se não:
+resultado = 30
+
+As funções sair e historico não mudaram isso é tudo 😁
