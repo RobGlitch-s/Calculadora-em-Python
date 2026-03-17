@@ -101,3 +101,7 @@ Essa calculadora não suporta expressões sem espaço:
 Nao suporta:
 múltiplas operações customizadas (tipo r2 r3 etc.)
 parênteses complexos com parsing manual
+
+### Versão Calc-v3
+
+Projeto em andamento ainda
