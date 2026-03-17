@@ -91,3 +91,13 @@ se não:
 resultado = 30
 
 As funções sair e historico não mudaram isso é tudo 😁
+
+#### ‼️OBS
+
+Essa calculadora não suporta expressões sem espaço: 
+❌ 5+5
+✔️ 5 + 5
+
+Nao suporta:
+múltiplas operações customizadas (tipo r2 r3 etc.)
+parênteses complexos com parsing manual
