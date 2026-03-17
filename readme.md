@@ -1,107 +1,163 @@
-# 🧮 Calculadora em Python (Terminal)
+# 🧮 Coleção de Calculadoras em Python
 
-Uma **calculadora simples feita em Python** que roda no terminal.  
-Ela permite realizar operações matemáticas básicas e mantém um **histórico das operações realizadas** durante a execução do programa.
+Este repositório contém diferentes versões de calculadoras desenvolvidas em **Python**, evoluindo de uma versão básica até uma versão avançada com funções científicas e conversão de bases numéricas.
 
----
-
-## 🚀 Funcionalidades
-
-- Operações matemáticas básicas:
-  - Adição (`+`)
-  - Subtração (`-`)
-  - Multiplicação (`*`)
-  - Divisão (`/`)
-- Histórico das operações realizadas
-- Tratamento de erros para:
-  - Entrada inválida
-  - Operador inválido
-  - Divisão por zero
-- Execução contínua até o usuário digitar `sair`
+O objetivo do projeto é demonstrar evolução de código, organização, lógica de programação e uso de recursos da linguagem Python.
 
 ---
 
-## 📋 Como funciona
+## 📂 Estrutura do Projeto
 
-1. O programa solicita o **primeiro número**.
-2. Depois solicita o **operador matemático**.
-3. Em seguida pede o **segundo número**.
-4. O resultado é calculado e exibido na tela.
-5. A operação é salva no **histórico**.
+```
+calculadora-python/
+│
+├── calc-v1.py
+├── calc-v2.py
+├── calc-v3.py
+└── README.md
 
-Também existem dois comandos especiais:
+```
 
-| Comando | Função |
-|--------|------|
-| `historico` | Mostra todas as operações realizadas |
-| `sair` | Encerra o programa |
+# 🟢 1️⃣ Calculadora Básica
 
-## 😁 Final
+### ✔ Funcionalidades:
 
-Enfim isso é tudo pessoal :D
+* Soma
+* Subtração
+* Multiplicação
+* Divisão
+* Potência
+* Raiz quadrada e cúbica
+* Histórico de operações
+* Comando `sair`
 
-## ✅ Versões
+### 📌 Ideal para:
 
-### Versão Calc-v1
+* Iniciantes em Python
+* Estudo de estruturas de repetição
+* Uso de condicionais
 
-Nesta versão voce consegue fazer as operações mais basicas de uma calculadora somar, subtrair, dividir e multiplicar.
+---
 
-Exemplo:
+# 🔵 2️⃣ Calculadora Avançada
 
-Digite o primeiro número: 10
-Digite o Operador ( +, -, x, /): +
-Digite o segundo número: 10
+### ✔ Funcionalidades:
 
-Resultado: 20
+* Operações básicas
+* Funções científicas:
 
-#### Funções - Sair & Historico
+  * `sin`
+  * `cos`
+  * `tan`
+  * `log`
+* Reutilização do último resultado
+* Histórico
+* Limpar histórico
+* Arredondamento automático
+* Tratamento de erros
 
-##### Sair
+### 📌 Ideal para:
 
-A função sair ela encerra o programa da Calculadora
+* Estudo do módulo `math`
+* Manipulação de entrada do usuário
+* Controle de fluxo mais avançado
 
-##### Historico
+---
 
-Ela exibe o último calculo exibido na tela exemplo:
+# 🟣 3️⃣ Calculadora Completa com Conversão de Bases
 
-Digite a função ou primeiro número (Sair - encerra o programa - Historico - exibe o historico de calculos): 
+### ✔ Funcionalidades extras:
 
-Se Historico:
-Exibir Historico
-Historico.append[] = {Num1} {Num2} "=" {Resultado} 
-10 + 10 = 20
+* Tudo das versões anteriores
+* Conversão entre bases numéricas:
 
-### Versão Calc-v2
+  * Decimal (`dec`)
+  * Binário (`bin`)
+  * Octal (`oct`)
+  * Hexadecimal (`hex`)
+* Expressões matemáticas com parênteses
+* Avaliação segura de expressões
+* Sistema de formatação automática
 
-Nesta versão além dos calculos básicos voce consegue fazer raiz quadrada, cubica, exponenciação, porcentagem, entre outros calculos de sin, con, tan, log. Nesta calculadora você tambem consegue fazer calculos com expressão númerica inteira exemplo:
+### 📌 Ideal para:
 
-10 + 10 + 10 = 30 | 10 + 10 * 2 = 30
+* Estudo de sistemas numéricos
+* Manipulação de strings
+* Segurança com `eval()`
+* Projeto mais avançado
 
-Lembrando que ele faz em ordem de acordo com as regras matematicas primeiro parenteses, multiplicação e divisão.
+---
 
-Esse código também armazena o resultado da conta anterior podendo utilizar o resultado da última conta na próxima conta exemplo:
+## ⚙️ Requisitos
 
-Digite a operação: 10 + 10 + 10
-Deseja utilizar o resultado da conta anterior (s/n):
+* Python **3.6 ou superior**
+* Biblioteca padrão do Python (já inclusa)
+* Terminal / Prompt de comando
 
-se sim:
-resultado = 60
+Verificar instalação:
 
-se não:
-resultado = 30
+```bash id="checkall1"
+python --version
+```
 
-As funções sair e historico não mudaram isso é tudo 😁
+ou
 
-#### ‼️OBS
+```bash id="checkall2"
+python3 --version
+```
 
-Essa calculadora não suporta expressões sem espaço: 
-❌ 5+5
-✔️ 5 + 5
+---
 
-Nao suporta:
-múltiplas operações customizadas (tipo r2 r3 etc.)
-parênteses complexos com parsing manual
+## 🚀 Como Executar
 
-### Versão Calc-v3
+1. Clone o repositório:
 
-Projeto em andamento ainda
+```bash id="cloneall"
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+
+2. Entre na pasta:
+
+```bash id="cdall"
+cd seu-repositorio
+```
+
+3. Execute o arquivo desejado:
+
+```bash id="runall"
+python nome_do_arquivo.py
+```
+
+---
+
+## 🎯 Objetivos do Projeto
+
+* Praticar lógica de programação
+* Trabalhar com estruturas de repetição (`while`)
+* Usar condicionais (`if/elif/else`)
+* Manipular exceções (`try/except`)
+* Trabalhar com módulos (`math`)
+* Aplicar conceitos de segurança em código
+* Evolução incremental de software
+
+---
+
+## 🔮 Possíveis Melhorias Futuras
+
+* Interface gráfica (GUI)
+* Versão web
+* Histórico salvo em arquivo
+* Suporte a números complexos
+* Modo científico completo
+* Testes automatizados
+* Organização em classes (POO)
+
+---
+
+## 👨‍💻 Autor
+
+Projeto desenvolvido para fins de estudo e prática de programação em Python.
+
+---
+
+⭐ Se este projeto foi útil, considere dar uma estrela no repositório!
