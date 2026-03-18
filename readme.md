@@ -14,6 +14,7 @@ calculadora-python/
 ├── calc-v1.py
 ├── calc-v2.py
 ├── calc-v3.py
+├── calc-v3.1.py
 └── README.md
 
 ```
@@ -144,13 +145,9 @@ python nome_do_arquivo.py
 
 ## 🔮 Possíveis Melhorias Futuras
 
-* Interface gráfica (GUI)
-* Versão web
 * Histórico salvo em arquivo
 * Suporte a números complexos
 * Modo científico completo
-* Testes automatizados
-* Organização em classes (POO)
 
 ---
 
