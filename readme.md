@@ -11,10 +11,12 @@ O objetivo do projeto é demonstrar evolução de código, organização, lógic
 ```
 calculadora-python/
 │
-├── calc-v1.py
-├── calc-v2.py
-├── calc-v3.py
+├── calc-v1.0.py
+├── calc-v2.0.py
+├── calc-v3.0.py
 ├── calc-v3.1.py
+├── calc-v4.0.py
+├── calc-v4.1.py
 └── README.md
 
 ```
